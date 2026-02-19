@@ -36,7 +36,4 @@ A full-stack authentication system built using the MERN stack (MongoDB, Express.
 - CORS
 - dotenv
 
----
-
-## 📂 Project Structure
 
