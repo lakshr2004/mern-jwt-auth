@@ -20,7 +20,7 @@ function Register() {
     try {
       const res = await API.post("/register", form);
       localStorage.setItem("token", res.data.token);
-      navigate("/profile");
+      navigate("/login");
     } catch (err) {
       alert(err.response?.data?.message || "Register Failed");
     }
